@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  text-align: center;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}

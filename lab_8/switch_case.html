@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch case implementation</title>
+</head>
+<body>
+
+    <script>
+        // Get the current day of the week as a number (0-6)
+        var currentDate = new Date();
+        var dayOfWeek = currentDate.getDay();
+
+        // Determine the day of the week using a switch case
+        var dayName;
+        switch(dayOfWeek) {
+            case 0:
+                dayName = "Sunday";
+                break;
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            case 3:
+                dayName = "Wednesday";
+                break;
+            case 4:
+                dayName = "Thursday";
+                break;
+            case 5:
+                dayName = "Friday";
+                break;
+            case 6:
+                dayName = "Saturday";
+                break;
+            default:
+                dayName = "Unknown Day";
+        }
+
+        // Display the current day of the week in the console
+        console.log("Today is " + dayName);
+    </script>
+
+</body>
+</html>

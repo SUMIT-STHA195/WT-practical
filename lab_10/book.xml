@@ -1,0 +1,14 @@
+<bookstore>
+    <book>
+        <title>Harry potter</title>
+        <author>J.K Rowling</author>
+        <year>1998</year>
+        <price>800</price>
+    </book>
+    <book>
+        <title>web tech</title>
+        <author>diwash jii</author>
+        <year>1999</year>
+        <price>2000</price>
+    </book>
+</bookstore>

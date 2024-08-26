@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(246, 244, 244);
+}
+
+.Payment_box {
+  width: 100%;
+  border-radius: 20px;
+  padding: 18px;
+  max-width: 500px;
+  box-shadow: #808080;
+  background-color: white;
+  height: 351px;
+}
+
+.method {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  /* gap: 10px; */
+}
+
+label {
+  margin-right: auto;
+  font: bold;
+}
+
+input {
+  margin-right: 10px;
+}
+img {
+  width: 50px;
+  height: 80px;
+}

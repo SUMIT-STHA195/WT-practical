@@ -1,0 +1,33 @@
+Table of content:
+
+1.	Create a class timetable using HTML tables and CSS. Show the class timings, subjects, and days of the week. Use HTML to organize the information neatly and CSS to make it visually appealing. Keep it simple and easy to understand.
+	
+2.	Create a payment method selection card / Cards using the design provided in the Figma.
+	
+3.	Write an HTML and CSS code to display your college Identity card on a web page using multiple HTML tags.
+	
+4.	Create an HTML signup form with fields Name, Email, Password, and Age, Validate the
+form using JavaScript. Write functions to validate each of the elements.
+  a. All of the fields should not be empty.
+  b. The Email address should be a valid email,
+  c. the password should be of length at least 6.
+  d. The age should be between 8 and 60.
+	
+5.	Develop and demonstrate the usage of inline, internal, and external style sheets using CSS.
+	
+6.	Write a JavaScript script to create a function that will take a value and store them in cookies which need to expire in a certain time. Also print the result in the console window.
+	
+7.	Write a JS script to detect the following events:
+	a. User clicked a div
+	b. User scrolled through the page
+	c. User pressed the letter ‘A’ in the keyboard
+	
+8.	Create a JavaScript program that uses a switch case to determine and display the current day of the week.
+	
+9.	Create a student form and store the individual values using PHP and mysql.
+	
+10.	Show XML representation (DTD) of a bookstore with information on at least two books.
+	
+11.	Responsive Navigation Bar (Project)	
+
+

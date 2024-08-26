@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Detection Example</title>
+    <style>
+      #click {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(197, 224, 40);
+        text-align: center;
+        line-height: 100px;
+        margin: 20px auto;
+        cursor: pointer;
+      }
+      body{
+        height:2000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="click">Click Me!</div>
+
+    <script>
+      // a. Detect when the user clicks a div
+      document
+        .getElementById("click")
+        .addEventListener("click", function () {
+          console.log("Div was clicked.");
+        });
+
+      // b. Detect when the user scrolls through the page
+      window.addEventListener("scroll", function () {
+        console.log("User scrolled the page.");
+      });
+
+      // c. Detect when the user presses the letter 'A' on the keyboard
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "A" || event.key === "a") {
+          console.log("User pressed the 'A' key.");
+        }
+      });
+    </script>
+  </body>
+</html>
